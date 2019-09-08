@@ -41,7 +41,7 @@ public class BaseDatos {
 
         try {
                 Class.forName("org.postgresql.Driver");
-                conn = DriverManager.getConnection(urlPostgres, "postgres", "carcajada");
+                conn = DriverManager.getConnection(urlPostgres, "postgres", "isp");
            
         } catch (Exception ex) {
             
